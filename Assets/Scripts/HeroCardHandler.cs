@@ -13,11 +13,13 @@ namespace HeroSelection
         public float FadeTime = 0.5f;
 
         private Image _image;
+        private Button _button;
         private CanvasGroup _canvasGroup;
 
-        private void Start()
+        private void Awake()
         {
             _image = gameObject.GetComponent<Image>();
+            _button = gameObject.GetComponent<Button>();
             _canvasGroup = transform.Find("Info Group").GetComponent<CanvasGroup>();
         }
 
@@ -26,6 +28,7 @@ namespace HeroSelection
         /// </summary>
         public void DisableCard(bool isSelected)
         {
+            _button.interactable = false;
             _image.raycastTarget = false;
             if (!isSelected)
                 StartCoroutine(FadeOutCard());
@@ -36,6 +39,7 @@ namespace HeroSelection
         /// </summary>
         public void EnableCard(bool isSelected)
         {
+            _button.interactable = true;
             _image.raycastTarget = true;
             if (!isSelected)
                 StartCoroutine(FadeInCard());
