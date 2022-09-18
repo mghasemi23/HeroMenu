@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aa375eb07bce314f92bf872a6d2deef, type: 3}
+  m_Name: Angreboda
+  m_EditorClassIdentifier: 
+  ID: 8
+  Name: Angreboda
+  Description: zane loki khodemoone, Lorem ipsum dolor sit amet, consectetur adipiscing
+    elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  HeroAbiliies:
+  - Name: Hammer
+    Description: Hammer felan bisar
+    Icon: {fileID: -1431655126, guid: c96d42c0f242df34792b03f77b03754b, type: 3}
+  - Name: God's Fist
+    Description: First felan bisar o basmakan
+    Icon: {fileID: -1700904313, guid: c96d42c0f242df34792b03f77b03754b, type: 3}
+  - Name: Fly
+    Description: Fly Hoooooooooooyah
+    Icon: {fileID: 533205351, guid: c96d42c0f242df34792b03f77b03754b, type: 3}
+  Attributes: 1e0000001e0000001e000000

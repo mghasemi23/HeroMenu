@@ -1,2 +1,2 @@
 # HeroMenu
-Simple hero selection menu
+Simple hero selection menu in unity
